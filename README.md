@@ -22,3 +22,8 @@ How to use `HBaseSpout`, please refer to: [DumpToHBaseTopology.java](https://git
 
 ## Contributors
 * Yuan Panfeng ([@ypf412](https://github.com/ypf412))
+
+
+# Change this original codes' assumptions 
+* remove sharding key
+* use just timestamp range in data (not Row Key)
